@@ -1,0 +1,52 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "tabs": {
+    "close_position": "right",
+    "git_status": true
+  },
+  "completion_menu_scrollbar": "never",
+  "colorize_brackets": true,
+  "disable_ai": false,
+  "tab_bar": {
+    "show": true
+  },
+  "title_bar": {
+    "show_branch_name": true,
+    "show_project_items": true,
+    "show_onboarding_banner": true,
+    "show_user_picture": true,
+    "show_sign_in": true,
+    "show_menus": true,
+    "show_branch_icon": true
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "agent": {
+    "model_parameters": [],
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-2.5-flash"
+    },
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 18,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Fleet Dark Purple"
+  },
+  "toolbar": {
+    "selections_menu": true,
+    "breadcrumbs": false
+  }
+}
